@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Navbar</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 40px;
+        background-color: #f5f5f5;
+    }
+
+    .logo img {
+        height: 60px;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav-links li {
+        position: relative;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+    }
+
+    .nav-links a:hover {
+        color: #0056b3;
+    }
+
+    /* Dropdown arrow */
+    .dropdown::after {
+        content: " ▼";
+        font-size: 12px;
+    }
+</style>
+</head>
+<section>
+        <div style="font-size: 30px;">
+             <a href="index.html">Home</a>
+            <a href="ai chess.html">Ai chess</a>
+            <a href="tax.html"> Tax</a>
+             <a href="ludo.html">Ludo</a>
+             <a href="nnn.html">NNN</a> <br>
+             <a href="Facebook.html">Facebook</a>
+             <a href="Decomposer assignment.html">Decomposer Assignment</a>
+             <a href="chess.html">Chess</a>
+             <a href="Draft.html">Draft</a>
+             <a href="decom into.html">Decomposer Into</a>
+             <a href="ai.html"> Ai ludo</a>
+        </div>
+    </section>
+<body>
+
+<nav class="navbar">
+    <!-- Logo -->
+    <div class="logo">
+        <img src="logo.png" alt="SQI Logo">
+    </div>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links">
+        <li><a href="#" class="dropdown">About</a></li>
+        <li><a href="#" class="dropdown">Programmes</a></li>
+        <li><a href="#" class="dropdown">Admissions</a></li>
+        <li><a href="#" class="dropdown">E-Portal</a></li>
+        <li><a href="#">SQI Scholarship</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>
