@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{ font-family: Arial, Helvetica, sans-serif;}
+
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  padding: 20px 20px;
+}
+.navbar1{
+    justify-content: space-evenly;
+    gap:0px;
+}
+.navbar1 a{
+    justify-content: space-evenly;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+    
+
+}
+.navbar2{
+    padding: 0px 20px;
+    justify-content: space-evenly;
+    display: flex;
+    align-content: center;
+    gap: 20px;
+}
+.navbar2 p{
+    padding: auto;
+    display: flex;
+}
+
+.navbar2 button{
+    border-radius: 10px;
+    padding: 2px 10px;
+}
+.hero{
+    padding: 30px 80px;
+    background-color: antiquewhite;
+    /* margin: 5px 10px; */
+    align-items: center;
+    
+}
+.print-logo{
+    justify-content: space-between;
+    display: flex;
+    /* padding-top: 20px; */
+    align-items: center;
+}
+
+.print-logo img{ width: 90px;
+
+/* margin-top: 200PX; */
+}
+.nav-links li{
+   display: inline-block;
+   /* gap: 18px; */
+   /* justify-content: space-evenly; */
+   text-decoration: none;
+   padding-left: 20px;
+   list-style: none;
+    
+}
+.nav-links li a{
+   text-decoration: none;
+   list-style: none ;
+   
+    
+}
+
+
+ /* The quality print aspect */
+
+ .grid1{ display:flex;
+    align-items: center;
+    
+ }
+ .quality{
+    /* margin: 10px 20px; */
+    /* padding: 30px 20px; */
+    
+    
+ }
+ .quality h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: rgb(149, 163, 190);
+ }
+
+ .quality h3{ font: 70x;
+    color: rgb(165, 174, 192);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 200;
+
+ }
+ .quality input{
+    height: 70px;
+    width: 400px;
+    padding: 20px 55px;
+ }
+ .quality input placeholder{
+    font-size: 300px;
+    
+
+
+ }
+
+ .Qimag{
+    width: 10px;
+    display: inline-flex;
+    /* padding-left: 70px; */
+ }
